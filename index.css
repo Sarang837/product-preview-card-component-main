@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 36em;
+  height: 28em;
+  display: flex;
+  border-radius: 15px;
+  /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.151); */
+}
+
+.product-image-container img {
+  height: 28em;
+  width: 18em;
+  border-radius: 15px 0 0 15px;
+}
+
+.product-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.75rem;
+}
+
+.product-info-container h1 {
+  letter-spacing: 0.25rem;
+  font-variant-caps: all-petite-caps;
+  font-weight: normal;
+  font-size: 1.15rem;
+  color: hsl(228, 12%, 48%);
+  margin: 0;
+}
+
+.product-info-container h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.product-info-container p {
+  font-size: 0.85rem;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.25rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-price-new {
+  font-family: "Fraunces", serif;
+  font-size: 2.25rem;
+  padding: 0 1rem 2rem 0;
+  color: hsl(158, 36%, 37%);
+}
+
+.product-price-old {
+    font-size: .75rem;
+    color: hsl(228, 12%, 48%);
+    padding: 0 1rem 2rem 0;
+    text-decoration: line-through;
+}
+
+.add-button {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    padding: 1rem;
+    border: none;
+    border-radius: 7px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.add-button img {
+    margin-right: .5rem;
+}
