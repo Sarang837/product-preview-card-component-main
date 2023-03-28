@@ -83,6 +83,10 @@ body {
     font-weight: bold;
 }
 
+.add-button:hover {
+  cursor: pointer;
+}
+
 .add-button img {
     margin-right: .5rem;
 }
